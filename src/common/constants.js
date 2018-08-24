@@ -1,0 +1,3 @@
+export const INCOMINGCALL = 'INCOMINGCALL';
+export const KEYPAD = 'KEYPAD';
+export const INACTIVECALL = 'INACTIVECALL';

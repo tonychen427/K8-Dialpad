@@ -1,0 +1,39 @@
+#keypad {
+  width: 200px;
+  margin: 0 auto 0 auto;
+}
+.key {
+  border-radius: 50px 50px 50px 50px;
+  color: #444;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  float: left;
+  box-sizing: border-box;
+  margin: 8px;
+  cursor: pointer;
+  /* font-weight: lighter; */
+}
+.keypad-action {
+  width: 100%;
+  text-align: center;
+  height: 24px;
+}
+.key.active {
+  background-color: #2a3a4b !important;
+  color: #fff;
+}
+.key.active span {
+  color: #fff;
+}
+.key:hover {
+  background: #d9edfe;
+}
+.key span {
+  display:block;
+  color:#a7b8d1;
+  text-align:center;
+  font-size:10px;
+  text-transform:uppercase;
+}

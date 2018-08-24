@@ -1,0 +1,33 @@
+.flexible-modal {
+  position: absolute;
+  z-index: 9999;
+  border: 1px solid #ccc;
+  background: white;
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.4)
+}
+.flexible-modal-mask {
+  /* position: fixed;
+  height: 100%;
+  background: rgba(55, 55, 55, 0.6);
+  top:0;
+  left:0;
+  right:0;
+  bottom:0; */
+}
+.flexible-modal-resizer {
+  position:absolute;
+  right:0;
+  bottom:0;
+  cursor:se-resize;
+  margin:5px;
+  border-bottom: solid 2px #333;
+  border-right: solid 2px #333;
+}
+.flexible-modal-drag-area{
+  background: #20a8d8;
+  height: 25px;
+  position:absolute;
+  right:0;
+  top:0;
+  cursor:move;
+}
